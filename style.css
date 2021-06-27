@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(25, 29, 43);
+}
+
+h1 {
+    color: #ffcccc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 300px;
+    margin: 0;
+}
+
+.content {
+    margin: 20px;
+}
+
+@media (min-width: 1080px) and (max-width: 1366px) {
+    
+    h1 {
+        font-size: 250px;
+    }
+
+}
+
+@media (min-width:750px) and (max-width: 1080px) {
+
+    h1 {
+        font-size: 180px;
+    }    
+
+}
+
+@media (min-width: 450px) and (max-width:750px) {
+
+    h1 {
+        font-size: 100px;
+    }    
+
+}
+
+@media (max-width: 450px) {
+
+    h1 {
+        font-size: 80px;
+    }    
+
+}
